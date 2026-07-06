@@ -256,6 +256,10 @@ Resources:
                 /opt/aws/bin/cfn-signal -e $? --stack $AWS_CFN_STACK_NAME --resource LSFMasterInstance --region $AWS_CFN_STACK_REGION
               fi
 
+              # Apply latest OS package updates after signaling CloudFormation so
+              # stack creation is not blocked by the duration of the update.
+              yum update -y
+
               echo "*** END LSF MASTER BOOTSTRAP ***"
               --//--
 

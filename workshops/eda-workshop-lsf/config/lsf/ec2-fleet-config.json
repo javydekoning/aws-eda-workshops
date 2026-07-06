@@ -7,58 +7,112 @@
             },
             "Overrides": [
                 {
-                    "InstanceType": "m7i.large",
-                    "SubnetId": "%CFN_COMPUTE_NODE_SUBNET%",
-                    "WeightedCapacity": 1,
-                    "Priority": 71
-                },
-                {
-                    "InstanceType": "m7i.xlarge",
-                    "SubnetId": "%CFN_COMPUTE_NODE_SUBNET%",
-                    "WeightedCapacity": 2,
-                    "Priority": 72
-                },
-                {
-                    "InstanceType": "m7i.2xlarge",
+                    "InstanceType": "r6id.2xlarge",
                     "SubnetId": "%CFN_COMPUTE_NODE_SUBNET%",
                     "WeightedCapacity": 4,
-                    "Priority": 73
+                    "Priority": 10
                 },
                 {
-                    "InstanceType": "m6i.large",
-                    "SubnetId": "%CFN_COMPUTE_NODE_SUBNET%",
-                    "WeightedCapacity": 1,
-                    "Priority": 61
-                },
-                {
-                    "InstanceType": "m6i.xlarge",
-                    "SubnetId": "%CFN_COMPUTE_NODE_SUBNET%",
-                    "WeightedCapacity": 2,
-                    "Priority": 62
-                },
-                {
-                    "InstanceType": "m6i.2xlarge",
+                    "InstanceType": "r8i.2xlarge",
                     "SubnetId": "%CFN_COMPUTE_NODE_SUBNET%",
                     "WeightedCapacity": 4,
-                    "Priority": 63
+                    "Priority": 20
                 },
                 {
-                    "InstanceType": "m5.large",
+                    "InstanceType": "r8a.2xlarge",
                     "SubnetId": "%CFN_COMPUTE_NODE_SUBNET%",
-                    "WeightedCapacity": 1,
-                    "Priority": 51
+                    "WeightedCapacity": 8,
+                    "Priority": 20
                 },
                 {
-                    "InstanceType": "m5.xlarge",
+                    "InstanceType": "r6id.xlarge",
                     "SubnetId": "%CFN_COMPUTE_NODE_SUBNET%",
                     "WeightedCapacity": 2,
-                    "Priority": 52
+                    "Priority": 30
                 },
                 {
-                    "InstanceType": "m5.2xlarge",
+                    "InstanceType": "r8i.xlarge",
+                    "SubnetId": "%CFN_COMPUTE_NODE_SUBNET%",
+                    "WeightedCapacity": 2,
+                    "Priority": 40
+                },
+                {
+                    "InstanceType": "r8a.xlarge",
                     "SubnetId": "%CFN_COMPUTE_NODE_SUBNET%",
                     "WeightedCapacity": 4,
-                    "Priority": 53
+                    "Priority": 40
+                },
+                {
+                    "InstanceType": "r6id.large",
+                    "SubnetId": "%CFN_COMPUTE_NODE_SUBNET%",
+                    "WeightedCapacity": 1,
+                    "Priority": 50
+                },
+                {
+                    "InstanceType": "r8i.large",
+                    "SubnetId": "%CFN_COMPUTE_NODE_SUBNET%",
+                    "WeightedCapacity": 1,
+                    "Priority": 60
+                },
+                {
+                    "InstanceType": "r8a.large",
+                    "SubnetId": "%CFN_COMPUTE_NODE_SUBNET%",
+                    "WeightedCapacity": 2,
+                    "Priority": 60
+                },
+                {
+                    "InstanceType": "r7iz.2xlarge",
+                    "SubnetId": "%CFN_COMPUTE_NODE_SUBNET%",
+                    "WeightedCapacity": 4,
+                    "Priority": 70
+                },
+                {
+                    "InstanceType": "r7iz.xlarge",
+                    "SubnetId": "%CFN_COMPUTE_NODE_SUBNET%",
+                    "WeightedCapacity": 2,
+                    "Priority": 80
+                },
+                {
+                    "InstanceType": "r7iz.large",
+                    "SubnetId": "%CFN_COMPUTE_NODE_SUBNET%",
+                    "WeightedCapacity": 1,
+                    "Priority": 90
+                },
+                {
+                    "InstanceType": "r7i.2xlarge",
+                    "SubnetId": "%CFN_COMPUTE_NODE_SUBNET%",
+                    "WeightedCapacity": 4,
+                    "Priority": 100
+                },
+                {
+                    "InstanceType": "r7a.2xlarge",
+                    "SubnetId": "%CFN_COMPUTE_NODE_SUBNET%",
+                    "WeightedCapacity": 8,
+                    "Priority": 100
+                },
+                {
+                    "InstanceType": "r7i.xlarge",
+                    "SubnetId": "%CFN_COMPUTE_NODE_SUBNET%",
+                    "WeightedCapacity": 2,
+                    "Priority": 110
+                },
+                {
+                    "InstanceType": "r7a.xlarge",
+                    "SubnetId": "%CFN_COMPUTE_NODE_SUBNET%",
+                    "WeightedCapacity": 4,
+                    "Priority": 110
+                },
+                {
+                    "InstanceType": "r7i.large",
+                    "SubnetId": "%CFN_COMPUTE_NODE_SUBNET%",
+                    "WeightedCapacity": 1,
+                    "Priority": 120
+                },
+                {
+                    "InstanceType": "r7a.large",
+                    "SubnetId": "%CFN_COMPUTE_NODE_SUBNET%",
+                    "WeightedCapacity": 2,
+                    "Priority": 120
                 }
             ]
         }
